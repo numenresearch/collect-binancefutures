@@ -36,3 +36,7 @@ or with the initial market depth snapshot
 `convert.sh /mnt/data/btcusdt_20220811.dat /mnt/data -s /mnt/data/btcusdt_20220810.snapshot.pkl`
   
 `/mnt/data/btcusdt_20220810.snapshot.pkl` is End-Of-Day market depth snapshot of 20220810 so it's initial market depth snapshot of 20220811.  
+
+
+# 
+python convert/convert.py .\sample_data\btcusdt_20220811.dat .\sample_data\
